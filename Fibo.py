@@ -14,3 +14,9 @@ class Fibo:
         for i in range(n):
             a,b = b,a+b
         return a
+
+    def oblicz(n):
+        if n in {0, 1}:  
+            return n
+        return Fibo.oblicz(n - 1) + Fibo.oblicz(n - 2)
+
