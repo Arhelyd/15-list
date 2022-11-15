@@ -1,6 +1,5 @@
 print("Pierwszy feature")
-<<<<<<< HEAD
-print("Drugi feature")
+print("Następny feature")
 
 from Punkt import Point
 punkt=Point(1,1,1)
