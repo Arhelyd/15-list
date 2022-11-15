@@ -1,5 +1,5 @@
 print("Pierwszy feature")
-print("Drugi feature")
+print("Następny feature")
 
 from Punkt import Point
 punkt=Point(1,1,1)
@@ -8,3 +8,5 @@ print("odległość od punktu 0,0,0:",end="\t")
 print(punkt.distance())
 from Fibo import Fibo
 print(Fibo.oblicz(10))
+print(Fibo.oblicz(13))
+#teraz oblicza i 10 i 13
